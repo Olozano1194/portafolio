@@ -1,0 +1,83 @@
+export const skill = [
+    {
+        "id": 1,
+        "icon": "FaHtml5",
+        "description": "HTML5",
+    },
+    {
+        "id": 2,
+        "icon": "FaJava",
+        "description": "Java"
+    },
+    {
+        "id": 3,
+        "icon": "FaCss3",
+        "description": "CSS3"
+    },
+    {
+        "id": 4,
+        "icon": "FaPython",
+        "description": "Python"
+    },
+    {
+        "id": 5,
+        "icon": "IoLogoJavascript",
+        "description": "JavaScript"
+    },
+    {
+        "id": 6,
+        "icon": "SiDjango",
+        "description": "Django"
+    },
+]
+
+export const softSkills = [
+    {
+        "id": 1,
+        "icon": "FaUsers",
+        "description": "Trabajo en equipo"
+    },
+    {
+        "id": 2,
+        "icon": 'RiEmpathizeFill',
+        "description": "Empatía"
+    },
+    {
+        "id": 3,
+        "icon": 'FcCollaboration',
+        "description": "Colaboración"
+    },
+    {
+        "id": 6,
+        "icon": 'FaCalendarTimes',
+        "description": "Gestión del tiempo"
+    }
+]
+
+export const hobbies = [
+    {
+        "id": 1,
+        "icon": "FaFutbol",
+        "description": "Fútbol"
+    },
+    {
+        "id": 2,
+        "icon": "CgGym",
+        "description": "Gimnasio"
+    },
+    {
+        "id": 3,
+        "icon": "FaHeadphones",
+        "description": "Escucha Música"
+    },
+    {
+        "id": 4,
+        "icon": "FaGamepad",
+        "description": "Videojuegos"
+    },
+    {
+        "id": 5,
+        "icon": "GiCook",
+        "description": "Cocinar"
+    }
+]

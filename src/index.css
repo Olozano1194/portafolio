@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+    color: #ffffffb4;
+    
+}
+
+.title {
+    @media (max-width: 874px) {
+        display: none;
+    }
+   
+}
+
+.iconHtml:hover {
+    color: #e34c26;
+    transform: scale(1.2);
+}
+
+.iconJava:hover {
+    color: #5382a1;
+    transform: scale(1.2);
+}
+
+.iconCss:hover {
+    color: #264de4;
+    transform: scale(1.2);
+
+}.iconPy:hover {
+    color: #ceb225;
+    transform: scale(1.2);
+
+}.iconHtml:hover {
+    color: #e34c26;
+    transform: scale(1.2);
+
+}.iconJS:hover {
+    color: #c9bd6f;
+    transform: scale(1.2);
+
+}
+
+.iconDj:hover {
+    color: #092e20;
+    transform: scale(1.2);
+}
+
+/*-------Formación -----------------*/
+
+img:hover {
+    transform: scale(1.2);
+}
+
+/*---------------Proyectos------------*/
+button:hover {
+    transform: scale(1.2);
+}
