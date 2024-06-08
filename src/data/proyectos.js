@@ -17,8 +17,8 @@ export const proyectos = [
         'description': "Proyecto realizado con React y tailwind",
         'img': "taskReact",
         'tipo': "Demo",
-        'repo': "https://github.com/Olozano1194/gym",
-        'Demo': 'https://olozano1194.github.io/Challenger1-encriptador/',
+        'repo': "https://github.com/Olozano1194/task-app",
+        'Demo': 'https://olozano1194.github.io/task-app/',
     },
     {
 
@@ -26,9 +26,9 @@ export const proyectos = [
         'title': "Sistema para Gimnasio",
         'subtitle': "Proyecto Personal",
         'description': "Proyecto realizado con Html5, Css3, JavaScript y Django",
-        'img': "Django",
+        'img': "GymDjango",
         'tipo': "Video",
-        'repo': "https://github.com/Olozano1194/gym",
+        'repo': "https://github.com/Olozano1194/Gimnasio",
         //'video': 'Gym',
     },
     {
@@ -39,7 +39,7 @@ export const proyectos = [
         'img': "Django",
         'tipo': "Video",
         'repo': "https://github.com/Olozano1194/loginConexionBdv1.1",
-        'video': 'LoginDjango',
+        //'video': 'LoginDjango',
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ export const proyectos = [
         'description': "Proyecto realizado con Java, JDBC y Mysql",
         'img': "HotelAlura",
         'tipo': "Video",
-        'repo': "https://github.com/Olozano1194/gym",
+        'repo': "https://github.com/Olozano1194/alura-Hotel",
         //'video': 'AluraHotel',
     },
     {
@@ -58,8 +58,8 @@ export const proyectos = [
         'description': "Proyecto realizado con Html5, Css3, JavaScript",
         'img': "TiendaVirtual",
         'tipo': "Demo",
-        'repo': "https://github.com/Olozano1194/Challenger1-encriptador",
-        'Demo': 'https://olozano1194.github.io/Challenger1-encriptador/',
+        'repo': "https://github.com/Olozano1194/challenger_4_Ecomerce_Alura",
+        'Demo': 'https://olozano1194.github.io/challenger_4_Ecomerce_Alura',
     },
     {
         id: 7,
@@ -88,7 +88,7 @@ export const proyectos = [
         'description': "Proyecto realizado con Java",
         'img': "Conversor",
         'tipo': "Video",
-        'repo': "https://github.com/Olozano1194/gym",
+        'repo': "https://github.com/Olozano1194/conversor-de-Monedas",
         //'video': 'Conversor',
     },
 ]

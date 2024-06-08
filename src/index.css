@@ -14,6 +14,11 @@ a:hover {
    
 }
 
+/*--------------Redes------------------*/
+.redes:hover {
+    transform: scale(1.2);
+}
+
 .iconHtml:hover {
     color: #e34c26;
     transform: scale(1.2);
@@ -54,6 +59,6 @@ img:hover {
 }
 
 /*---------------Proyectos------------*/
-button:hover {
+a:hover {
     transform: scale(1.2);
 }

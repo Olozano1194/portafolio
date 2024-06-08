@@ -18,9 +18,9 @@ function Redes() {
                 </p>
 
                 <div className='flex items-center justify-center gap-10 p-4 text-4xl'>
-                    <Link to={'https://www.linkedin.com/in/OlozanoBocanegra'} className='hover:text-cyan-500'><FaLinkedin /></Link>
-                    <Link to={'https://github.com/Olozano1194'} className='hover:text-stone-600'><FaGithub /></Link>
-                    <Link to={'../curriculum/resumeOscarLozano.pdf'} className='hover:text-yellow-50'><FaFile /></Link>
+                    <Link to={'https://www.linkedin.com/in/OlozanoBocanegra'} className='hover:text-cyan-500 redes'><FaLinkedin /></Link>
+                    <Link to={'https://github.com/Olozano1194'} className='hover:text-stone-600 redes'><FaGithub /></Link>
+                    <Link to={'../curriculum/resumeOscarLozano.pdf'} className='hover:text-pink-400 redes'><FaFile /></Link>
                 </div>
                   
         </div>

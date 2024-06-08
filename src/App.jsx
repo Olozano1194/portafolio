@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Redes from './components/Redes';
 import SobreMi from './components/SobreMi';
 import Skills from './components/Skills';
 import SoftSkills from './components/SoftSkills';
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
       </header>
       <main className='bg-gray-200 p-5'>
+          <Redes />
           <SobreMi />
           <Skills />
           <SoftSkills />
