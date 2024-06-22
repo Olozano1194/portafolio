@@ -2,7 +2,7 @@ import imgPerfil from '../assets/img/foto_perfil.jpeg'
 
 function SobreMi() {
     return (
-        <section className="flex justify-center items-center flex-col p-7 border-b-2 border-stone-900">
+        <section id='sobreMi' className="flex justify-center items-center flex-col p-7 border-b-2 border-stone-900">
             <div className='rounded-full'>
                 <img src={imgPerfil} alt="img-perfil" className='rounded-full w-60' />
             </div>

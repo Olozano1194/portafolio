@@ -4,7 +4,7 @@ import { datos } from "../data/formacionAcademica";
 function FormacionAcademica() {
     return (
         <section className="w-full overflow-hidden flex flex-col justify-center items-center p-5 border-b-2 border-stone-900">
-            <h1 className="font-bold text-center text-4xl p-5">Formación Académica</h1>
+            <h1 id="formacionAcademica" className="font-bold text-center text-4xl p-5">Formación Académica</h1>
             <ul  className="w-full flex flex-wrap justify-between text-center gap-5 mt-5 text-3xl cursor-pointer" >
                 { datos.map((item) => (
                     <li key={item.id} className='flex items-center flex-col justify-center'>

@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-scroll';
 import SobreMi from "./Redes";
 import logo from '../assets/img/logoOscar1.jpeg';
 
@@ -16,13 +16,13 @@ function Navbar() {
             </div>
             
             <nav className='flex gap-3 text-stone-50'>
-                <Link to={'../components/SobreMi.jsx'} >Sobre mi</Link>
-                <Link to='/skill' >Skills</Link>
-                <Link to='/softSkill' >Soft Skill</Link>
-                <Link to='/hobbies' >Hobbies</Link>
-                <Link to='/formacion' >Formación</Link>
-                <Link to='/proyectos' >Proyectos</Link>
-                <Link to='/contacto' >Contacto</Link>
+                <Link to='sobreMi' smooth={true} duration={500} >Sobre mi</Link>
+                <Link to='skill' smooth={true} duration={500} >Skills</Link>
+                <Link to='softSkill' smooth={true} duration={500} >Soft Skill</Link>
+                <Link to='hobbies' smooth={true} duration={500} >Hobbies</Link>
+                <Link to='formacionAcademica' smooth={true} duration={500} >Formación</Link>
+                <Link to='proyectos' smooth={true} duration={500} >Proyectos</Link>
+                <Link to='contacto' smooth={true} duration={500} >Contacto</Link>
                         
             </nav>
         </>

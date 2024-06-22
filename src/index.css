@@ -4,6 +4,7 @@
 
 a:hover {
     color: #ffffffb4;
+    cursor: pointer;
     
 }
 
@@ -32,16 +33,20 @@ a:hover {
 .iconCss:hover {
     color: #264de4;
     transform: scale(1.2);
+}
 
-}.iconPy:hover {
+.iconPy:hover {
     color: #ceb225;
     transform: scale(1.2);
 
-}.iconHtml:hover {
+}
+
+.iconHtml:hover {
     color: #e34c26;
     transform: scale(1.2);
 
-}.iconJS:hover {
+}
+.iconJS:hover {
     color: #c9bd6f;
     transform: scale(1.2);
 
