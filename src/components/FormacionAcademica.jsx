@@ -10,7 +10,7 @@ function FormacionAcademica() {
                     <li key={item.id} className='flex items-center flex-col justify-center'>
                     <img
                         className={`w-40 h-30 rounded-xl ${item.imagen === 'PracticanteTic' ? 'w-40 h-32': ''} ${item.imagen === 'TecnologoPlatzi' ? 'w-40 h-28': ''} `} 
-                        src={`/portafolio/src/assets/img/formacion-${item.imagen}.png`}
+                        src={`/portafolio/assets/formacion-${item.imagen}.png`}
                         alt={`Logo ${item.imagen}`} />
 
                         <span className={`w-48 text-lg mt-3`}>{item.titulacion}</span>

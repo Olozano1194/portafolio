@@ -12,7 +12,7 @@ function Proyectos() {
                     <article key={proyecto.id} className="flex justify-between">
                         <img
                             className="w-80 h-60 mr-10 p-5 rounded-3xl cursor-pointer" 
-                            src={`/portafolio/src/assets/img/proyecto-${proyecto.img}.png`} 
+                            src={`/portafolio/assets/proyecto-${proyecto.img}.png`} 
                             alt={`imagen ${proyecto.img}`} />
                         
                         <div className="w-96 text-center text-lg p-2">

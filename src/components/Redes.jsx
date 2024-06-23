@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaFile  } from 'react-icons/fa';
 
 
+
 function Redes() {
     return (
         <div className="text-justify text-lg text-slate-950 border-b-2 border-stone-900">
@@ -18,9 +19,9 @@ function Redes() {
                 </p>
 
                 <div className='flex items-center justify-center gap-10 p-4 text-4xl'>
-                    <Link to={'https://www.linkedin.com/in/OlozanoBocanegra'} className='hover:text-cyan-500 redes'><FaLinkedin /></Link>
-                    <Link to={'https://github.com/Olozano1194'} className='hover:text-stone-600 redes'><FaGithub /></Link>
-                    <Link to={'../curriculum/resumeOscarLozano.pdf'} className='hover:text-pink-400 redes'><FaFile /></Link>
+                    <Link to={'https://www.linkedin.com/in/OlozanoBocanegra'} target='_blank' className='hover:text-cyan-500 redes'><FaLinkedin /></Link>
+                    <Link to={'https://github.com/Olozano1194'} target='_blank' className='hover:text-stone-600 redes'><FaGithub /></Link>
+                    <Link to={'portafolio/curriculum/resumeOscarLozano.pdf'} target='_blank' className='hover:text-pink-400 redes'><FaFile /></Link>
                 </div>
                   
         </div>

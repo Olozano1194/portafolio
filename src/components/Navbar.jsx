@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 import SobreMi from "./Redes";
-import logo from '../assets/img/logoOscar1.jpeg';
+import logo from '/portafolio/assets/logoOscar1.jpeg';
 
 
 function Navbar() {

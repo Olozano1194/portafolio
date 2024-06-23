@@ -1,4 +1,4 @@
-import imgPerfil from '../assets/img/foto_perfil.jpeg'
+import imgPerfil from '/portafolio/assets/foto_perfil.jpeg'
 
 function SobreMi() {
     return (
