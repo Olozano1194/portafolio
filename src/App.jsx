@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Redes from './components/Redes';
 import SobreMi from './components/SobreMi';
@@ -8,6 +8,7 @@ import Hobbies from './components/Hobbies';
 import FormacionAcademica from './components/FormacionAcademica'
 import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
+import Videos from './components/Videos';
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
       </header>
       <main className='bg-gray-200 p-5'>
+
           <Redes />
           <SobreMi />
           <Skills />
@@ -26,6 +28,9 @@ function App() {
           <FormacionAcademica />
           <Proyectos />
 
+          <Routes >
+            <Route path="/Videos/:videosId" element={<Videos />} />
+          </Routes>
       </main>
       <footer className='bg-slate-500 p-5'>
         <Contacto />

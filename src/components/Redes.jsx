@@ -9,12 +9,11 @@ function Redes() {
             <p>Hola, soy <span className='text-black font-bold'>Oscar Eduardo Lozano Bocanegra</span></p>
 
             <p>Ingeniero de sistemas, graduado de la institución de educación superior
-                <span className='font-bold'> "ITFIP"</span>. En Alura Latam, participé en el proyecto Oracle ONE, donde 
-                he podido fortalecer mis habilidades en el desarrollo en; Java, JavaScript, 
-                Css3 y SQL.
-                en mi portafolio encontrarás muestras de mis proyectos y enlaces a mi repositorio
-                de GitHub, Linkendln y currículum.
-                ¡Gracias por visitar y espero que disfrutes explorando mi trabajo!
+                <span className='font-bold'> "ITFIP"</span>.<br></br> He estado estudiando y desarrollando mis habilidades en Java, 
+                JavaScript, Css3 y SQL a través de diversas plataformas de educación en línea.<br></br>
+                En mi portafolio, encontrarás muestras de mis proyectos, así como enlaces a mi repositorio
+                de GitHub, Linkendln y mi currículum.<br></br>
+                ¡Gracias por visitar! Espero que disfrutes explorando mi trabajo.
                 Estoy emocionado por lo que el futuro me depara y agradecido por seguir creciendo profesionalmente.
                 </p>
 

@@ -22,20 +22,18 @@ function Proyectos() {
                         </div>
                             
                         <div className="flex justify-center flex-col items-center ml-10 gap-5 text-white text-lg">
-                            <Link to={proyecto.repo} className="bg-blue-700 rounded-xl p-2 ">Repositorio</Link>
+                            <Link to={proyecto.repo} target="_blank" className="bg-blue-700 rounded-xl p-2 ">Repositorio</Link>
                             {
                                 proyecto.tipo === 'Demo' ? (
-                                    <Link to={proyecto.Demo} className="bg-slate-500 rounded-xl p-2 ">Demo</Link>
+                                    <Link to={proyecto.Demo} target="_blank" className="bg-slate-500 rounded-xl p-2 ">Demo</Link>
                                 ): (
-                                    <Link to={`/gym/${proyecto.id}`}  className="bg-blue-400 rounded-xl p-2 ">Video</Link>
+                                    <Link to={`/Videos/${proyecto.id}`} className="bg-blue-400 rounded-xl p-2 ">Video</Link>
                                 )
                             }
                         </div>
                     </article>
                 ))
-                
             }
-            
         </section>
     );
     

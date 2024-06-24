@@ -3,10 +3,10 @@ export const proyectos = [
         id: 1,
         'title': "Lista de Tareas",
         'subtitle': "Proyecto Personal",
-        'description': "Proyecto realizado con Html5, Css3, JavaScript y Django",
+        'description': "Proyecto realizado con Html5, Css3, Mysql y Django",
         'img': "DjangoTask",
         'tipo': "Video",
-        'repo': "https://github.com/Olozano1194/gym",
+        'repo': "https://github.com/Olozano1194/TodoList",
         //'video': 'TaskDjango',
                 
     },
