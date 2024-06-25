@@ -67,3 +67,15 @@ img:hover {
 a:hover {
     transform: scale(1.2);
 }
+
+/*-----------------------------Contactos-----------*/
+.span {
+    display: flex;
+    padding-left: 1rem;
+    font-size: 16px;
+
+}
+
+.asunto {
+    padding-left: 13rem;
+}

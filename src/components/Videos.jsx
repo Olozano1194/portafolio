@@ -13,8 +13,8 @@ function Videos() {
     }
 
     return (
-        <section>
-            <h1>{proyecto.title}</h1>
+        <section className='w-full overflow-hidden flex flex-col justify-center items-center p-5 border-t-2 border-stone-900'>
+            <h1 className='text-4xl font-bold'>{proyecto.title}</h1>
 
             <ReactPlayer
                 url={`/portafolio/videos/videos-${proyecto.img}.mp4`}
