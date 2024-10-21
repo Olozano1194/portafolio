@@ -17,7 +17,7 @@ function Proyectos() {
                         
                         <div className="w-96 text-center text-lg p-2">
                             <h3 className="font-bold text-blue-600 text-2xl">{proyecto.title}</h3>
-                            <p>{proyecto.subtitle}</p>
+                            <p className="mt-1 mb-2">{proyecto.subtitle}</p>
                             <p>{proyecto.description}</p>
                         </div>
                             

@@ -1,6 +1,6 @@
-import { FaHtml5, FaJava, FaCss3, FaPython } from 'react-icons/fa';
+import { FaHtml5, FaJava, FaCss3, FaPython, FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
-import { SiDjango } from 'react-icons/si';
+import { SiDjango, SiTailwindcss, SiMysql } from 'react-icons/si';
 
 function getIcon(iconName) {
     switch (iconName) {
@@ -15,8 +15,18 @@ function getIcon(iconName) {
 
         case 'IoLogoJavascript':
             return <IoLogoJavascript className='iconJS' size={'3rem'} />;
+
         case 'SiDjango':
             return <SiDjango className='iconDj' size={'3rem'} />;
+        
+        case 'FaReact':
+            return <FaReact className='iconReact' size={'3rem'} />;
+        
+        case 'SiTailwind':
+            return <SiTailwindcss className='iconTw' size={'3rem'} />;
+        
+        case 'SiMysql':
+            return <SiMysql className='iconMysql' size={'3rem'} />;
 
         default:
             return null;

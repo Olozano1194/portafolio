@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 a:hover {
     color: #ffffffb4;
     cursor: pointer;
@@ -9,10 +10,38 @@ a:hover {
 }
 
 .title {
-    @media (max-width: 874px) {
+    @media (max-width: 400px), (max-width: 1023px) {
         display: none;
     }
-   
+    @media (min-width: 1066px) {
+        padding-right: 1rem;
+    }
+
+           
+}
+
+.logo {
+    @media (max-width: 874px) {
+        display: none;        
+
+    }
+ 
+}
+
+.linkNav {
+    @media (min-width: 486px) {
+        font-size: 0.95rem;
+    }
+    @media (min-width: 536px) {
+        font-size: 1.05rem;
+    }
+    @media (min-width: 600px) {
+        font-size: 1.15rem;
+    }
+    @media (min-width: 690px) {
+        font-size: 1.25rem;
+    }
+        
 }
 
 /*--------------Redes------------------*/
@@ -54,6 +83,21 @@ a:hover {
 
 .iconDj:hover {
     color: #092e20;
+    transform: scale(1.2);
+}
+
+.iconReact:hover {
+    color: #61dafb;
+    transform: scale(1.2);
+}
+
+.iconTw:hover {
+    color: #1da1f2;
+    transform: scale(1.2);
+}
+
+.iconMysql:hover {
+    color: #00758f;
     transform: scale(1.2);
 }
 

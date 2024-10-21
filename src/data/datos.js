@@ -29,6 +29,21 @@ export const skill = [
         "icon": "SiDjango",
         "description": "Django"
     },
+    {
+        "id": 7,
+        "icon": "FaReact",
+        "description": "React"
+    },
+    {
+        "id": 8,
+        "icon": "SiTailwind",
+        "description": "Tailwind"
+    },
+    {
+        "id": 9,
+        "icon": "SiMysql",
+        "description": "MySQL"
+    }
 ]
 
 export const softSkills = [
