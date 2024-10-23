@@ -29,6 +29,9 @@ a:hover {
 }
 
 .linkNav {
+    @media (min-width: 430px) {
+        font-size: 0.85rem;
+    }
     @media (min-width: 486px) {
         font-size: 0.95rem;
     }
