@@ -10,18 +10,18 @@ function Contacto() {
     })
 
     return (
-        <section className="w-full overflow-hidden flex flex-col justify-center items-center p-5">
-            <h2 id="contacto" className="font-bold text-center text-4xl p-5">Contacto</h2>
-            <p className="text-lg p-3">¿Quieres contactarme?</p>
-            <p className="text-lg p-3">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+        <section className="w-full overflow-hidden flex flex-col justify-center items-center p-3">
+            <h2 id="contacto" className="font-bold text-center text-4xl p-2 md:pb-4">Contacto</h2>
+            <p className="text-xl p-3 md:p-1">¿Quieres contactarme?</p>
+            <p className="text-xl p-3">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
             
             <form
                 onSubmit={onSubmit}
-                className="w-full flex flex-wrap justify-between text-center gap-2 mt-5 text-xl cursor-pointer">
+                className="w-full flex flex-col justify-center items-center text-center gap-5 mt-5 text-xl cursor-pointer md:flex-wrap md:justify-between md:flex-row md:gap-0 md:mt-1">
 
-                <label className="" htmlFor="nombre">
+                <label className="flex flex-col items-center" htmlFor="nombre">
                     <input 
-                        className="w-80 ml-3 border-l-rose-50 rounded-lg p-2" 
+                        className="w-80 border-l-rose-50 rounded-lg p-2" 
                         type="text" 
                         name="nombre" 
                         id="nombre" 
@@ -40,14 +40,14 @@ function Contacto() {
                             }
                         })}
                         placeholder="Nombre" />
-                        {errors.nombre && <span className="text-orange-400 span">
+                        {errors.nombre && <span className="text-rose-800 text-lg">
                             {errors.nombre.message}
                         </span>}
-                </label>
+                </label>                
 
-                <label htmlFor="email">
+                <label className="flex flex-col items-center" htmlFor="email">
                     <input 
-                        className="w-80 ml-3 border-l-rose-50 rounded-lg p-2" 
+                        className="w-80 md:ml-3 border-l-rose-50 rounded-lg p-2" 
                         type="email" 
                         name="email"
                         {...register('email', {
@@ -63,12 +63,12 @@ function Contacto() {
                         } 
                         
                         placeholder="Correo Electrónico" />
-                        {errors.email && <span className="text-orange-400 span">{errors.email.message}</span>}
+                        {errors.email && <span className="text-rose-800 text-lg">{errors.email.message}</span>}
                 </label>
 
-                <label htmlFor="asunto" className="w-full" >
+                <label className="md:w-full flex flex-col items-center" htmlFor="asunto">
                     <input 
-                        className="w-80 mt-5 ml-3 p-2 border-l-rose-50 rounded-lg" 
+                        className="w-80 md:mt-5 md:ml-3 p-2 border-l-rose-50 rounded-lg" 
                         type="text" 
                         name="asunto" 
                         
@@ -88,12 +88,12 @@ function Contacto() {
                             }
                         )}
                         placeholder="Asunto" />
-                        {errors.asunto && <span className="text-orange-400 span asunto">{errors.asunto.message}</span>}
+                        {errors.asunto && <span className="text-rose-800 text-lg">{errors.asunto.message}</span>}
                 </label>
 
-                <label htmlFor="mensaje" className="w-full resize-none" >
+                <label htmlFor="mensaje" className="md:w-full resize-none" >
                     <textarea 
-                        className="w-full h-36 mt-5 ml-3 p-2 border-l-rose-50 rounded-lg resize-none" 
+                        className="w-full h-36 md:mt-5 md:ml-3 p-2 border-l-rose-50 rounded-lg resize-none" 
                         name="mensaje" 
                         id="mensaje"
                         {...register('mensaje',
@@ -112,7 +112,7 @@ function Contacto() {
                             }
                         )}
                         placeholder="Escribir Mensaje" />
-                        {errors.mensaje && <span className="text-orange-400 text-lg">{errors.mensaje.message}</span>}
+                        {errors.mensaje && <span className="text-rose-800 text-lg">{errors.mensaje.message}</span>}
                 </label>
 
                 <div className="w-full mt-5  text-center ">
@@ -120,16 +120,18 @@ function Contacto() {
                         className="cursor-pointer bg-blue-200 p-3 rounded-xl" 
                         type="submit" 
                         value='Enviar Mensaje' />
-                </div>
-                
+                </div>                
 
             </form>
 
-            <div className="mt-7 mb-5 text-xl ">
-                <p>© Hecho por Oscar Lozano - 2024</p>
+            <div className="mt-7 md:mb-5 text-xl ">
+                <p>© 2024 Hecho por Oscar Lozano</p>
             </div>
         </section>
     );
     
 }
 export default Contacto;
+
+
+//w-full flex flex-wrap justify-between text-center gap-2 mt-5 text-xl cursor-pointer
