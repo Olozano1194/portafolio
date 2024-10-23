@@ -9,9 +9,9 @@ function Proyectos() {
             
             {
                 proyectos.map((proyecto) => (
-                    <article key={proyecto.id} className="flex justify-between">
+                    <article key={proyecto.id} className="flex items-center justify-center flex-col md:justify-between md:flex-row">
                         <img
-                            className="w-80 h-60 mr-10 p-5 rounded-3xl cursor-pointer" 
+                            className="w-80 h-60 md:mr-10 p-5 rounded-3xl cursor-pointer" 
                             src={`/portafolio/assets/proyecto-${proyecto.img}.png`} 
                             alt={`imagen ${proyecto.img}`} />
                         
@@ -21,7 +21,7 @@ function Proyectos() {
                             <p>{proyecto.description}</p>
                         </div>
                             
-                        <div className="flex justify-center flex-col items-center ml-10 gap-5 text-white text-lg">
+                        <div className="flex justify-center flex-col items-center md:ml-10 gap-5 text-white text-lg">
                             <Link to={proyecto.repo} target="_blank" className="bg-blue-700 rounded-xl p-2 ">Repositorio</Link>
                             {
                                 proyecto.tipo === 'Demo' ? (
