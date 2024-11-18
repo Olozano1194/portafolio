@@ -83,7 +83,7 @@ export const hobbies = [
     {
         "id": 3,
         "icon": "FaHeadphones",
-        "description": "Escucha Música"
+        "description": "Escuchar Música"
     },
     {
         "id": 4,
