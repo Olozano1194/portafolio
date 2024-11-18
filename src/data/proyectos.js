@@ -41,15 +41,14 @@ export const proyectos = [
         'Demo': 'https://olozano1194.github.io/task-app/',
     },
     {
-
         id: 5,
         'title': "Sistema para Gimnasio",
         'subtitle': "Proyecto Personal",
         'description': "Proyecto desarrollado con Html5, Css3, JavaScript y Django",
         'img': "GymDjango",
-        'tipo': "Video",
+        'tipo': "Demo",
         'repo': "https://github.com/Olozano1194/Gimnasio",
-        //'video': 'Gym',
+        'Demo': 'https://gimnasio-vm42.onrender.com',
     },
     {
         id: 6,
