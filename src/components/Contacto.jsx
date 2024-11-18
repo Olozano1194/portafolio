@@ -124,7 +124,7 @@ function Contacto() {
 
             </form>
 
-            <div className="mt-7 md:mb-5 text-xl ">
+            <div className="mt-7 md:mb-5 text-[1.22rem] lg:text-xl  text-stone-50">
                 <p>©2024 desarrollado por Oscar Lozano</p>
             </div>
         </section>
