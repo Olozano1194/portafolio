@@ -15,7 +15,7 @@ function App() {
   
   return (
     <BrowserRouter>
-      <header className='w-full bg-slate-500 flex justify-center lg:gap-3 p-2'>
+      <header className='w-full bg-slate-500 flex justify-between lg:gap-3 p-2'>
         <Navbar />
       </header>
       <main className='bg-gray-200 p-5'>

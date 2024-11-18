@@ -29,20 +29,14 @@ a:hover {
 }
 
 .linkNav {
-    @media (min-width: 430px) {
-        font-size: 0.85rem;
+    @media (min-width: 700px) {
+        font-size: 1rem;
     }
-    @media (min-width: 486px) {
-        font-size: 0.95rem;
+    @media (min-width: 800px) {
+        font-size: 1.2rem;
     }
-    @media (min-width: 536px) {
-        font-size: 1.05rem;
-    }
-    @media (min-width: 600px) {
-        font-size: 1.15rem;
-    }
-    @media (min-width: 690px) {
-        font-size: 1.25rem;
+    @media (min-width: 900px) {
+        font-size: 1.32rem;
     }
         
 }
@@ -152,4 +146,3 @@ a:hover {
 
 /*-----------------------------Contactos-----------*/
 
- 
