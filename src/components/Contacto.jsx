@@ -125,7 +125,7 @@ function Contacto() {
             </form>
 
             <div className="mt-7 md:mb-5 text-xl ">
-                <p>© 2024 Hecho por Oscar Lozano</p>
+                <p>©2024 desarrollado por Oscar Lozano</p>
             </div>
         </section>
     );
