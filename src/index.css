@@ -139,6 +139,15 @@ img:hover {
     transform: scale(1.2);
 }
 
+.imgFormacion {
+    @media (min-width: 600px) {
+        width: 60%;
+    }
+   @media (min-width: 700px) {
+        width: 50%;
+   }  
+}
+
 /*---------------Proyectos------------*/
 a:hover {
     transform: scale(1.2);

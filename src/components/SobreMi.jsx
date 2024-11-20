@@ -7,7 +7,7 @@ function SobreMi() {
                 <img src={imgPerfil} alt="img-perfil" className='rounded-full w-60' />
             </div>
 
-            <div className='text-slate-950 text-lg text-center'>
+            <div className='text-slate-950 text-[1.05rem] md:text-[1.2rem] text-center'>
                 <h2 className='text-4xl font-bold mt-5 mb-4'>Sobre mi</h2>
 
                 <p className='leading-9'>¡Hola¡ Soy <span className='font-bold'>Oscar</span>, un apasionado ingeniero en sistemas colombiano de 29 años 

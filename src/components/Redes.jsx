@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaFile  } from 'react-icons/fa';
 
 function Redes() {
     return (
-        <div className="redesDiv text-justify text-[1.05rem] text-slate-950 border-b-2 border-stone-900 md:text-[1.4rem]">
+        <div className="redesDiv text-justify text-[1.05rem] text-slate-950 border-b-2 border-stone-900 p-7 md:text-[1.4rem]">
             <p>Hola, soy <span className='text-black font-bold'>Oscar Eduardo Lozano Bocanegra</span>
             </p>
 
@@ -18,9 +18,9 @@ function Redes() {
             </p>
 
                 <div className='flex items-center justify-center gap-10 p-4 text-4xl'>
-                    <Link to={'https://www.linkedin.com/in/OlozanoBocanegra'} target='_blank' className='hover:text-cyan-500 redes'><FaLinkedin /></Link>
-                    <Link to={'https://github.com/Olozano1194'} target='_blank' className='hover:text-stone-600 redes'><FaGithub /></Link>
-                    <Link to={'portafolio/curriculum/CurriculumOscarLozano.pdf'} target='_blank' className='hover:text-cyan-600 redes'><FaFile /></Link>
+                    <Link to={'https://www.linkedin.com/in/OlozanoBocanegra'} target='_blank' className='hover:text-[#0e76a8] redes xl:text-5xl'><FaLinkedin /></Link>
+                    <Link to={'https://github.com/Olozano1194'} target='_blank' className='hover:text-[#171515] redes xl:text-5xl'><FaGithub /></Link>
+                    <Link to={'portafolio/curriculum/CurriculumOscarLozano.pdf'} target='_blank' className='hover:text-green-600 redes xl:text-5xl'><FaFile /></Link>
                 </div>
                   
         </div>

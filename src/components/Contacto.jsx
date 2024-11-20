@@ -17,11 +17,11 @@ function Contacto() {
             
             <form
                 onSubmit={onSubmit}
-                className="w-full flex flex-col justify-center items-center text-center gap-5 mt-5 text-xl cursor-pointer md:flex-wrap md:justify-between md:flex-row md:gap-0 md:mt-1">
+                className="w-full flex flex-col justify-center items-center text-center gap-5 mt-5 text-xl cursor-pointer md:flex-wrap md:justify-between md:flex-row md:gap-0 md:mt-1 lg:mt-5 xl:px-7">
 
                 <label className="flex flex-col items-center" htmlFor="nombre">
                     <input 
-                        className="w-80 border-l-rose-50 rounded-lg p-2" 
+                        className="w-80 border-l-rose-50 rounded-lg p-2 outline-none xl:w-96" 
                         type="text" 
                         name="nombre" 
                         id="nombre" 
@@ -47,7 +47,7 @@ function Contacto() {
 
                 <label className="flex flex-col items-center" htmlFor="email">
                     <input 
-                        className="w-80 md:ml-3 border-l-rose-50 rounded-lg p-2" 
+                        className="w-80 border-l-rose-50 rounded-lg p-2 outline-none md:ml-3 xl:ml-0 xl:w-96" 
                         type="email" 
                         name="email"
                         {...register('email', {
@@ -68,7 +68,7 @@ function Contacto() {
 
                 <label className="md:w-full flex flex-col items-center" htmlFor="asunto">
                     <input 
-                        className="w-80 md:mt-5 md:ml-3 p-2 border-l-rose-50 rounded-lg" 
+                        className="w-80 p-2 border-l-rose-50 rounded-lg outline-none md:mt-5 md:ml-3 xl:ml-0 xl:w-96" 
                         type="text" 
                         name="asunto" 
                         
@@ -93,7 +93,7 @@ function Contacto() {
 
                 <label htmlFor="mensaje" className="md:w-full resize-none" >
                     <textarea 
-                        className="w-full h-36 md:mt-5 md:ml-3 p-2 border-l-rose-50 rounded-lg resize-none" 
+                        className="w-full h-36 p-2 border-l-rose-50 rounded-lg resize-none outline-none md:mt-5 md:ml-3 xl:ml-0" 
                         name="mensaje" 
                         id="mensaje"
                         {...register('mensaje',
@@ -124,7 +124,7 @@ function Contacto() {
 
             </form>
 
-            <div className="mt-7 md:mb-5 text-[1.22rem] lg:text-xl  text-stone-50">
+            <div className="mt-7 md:mb-5 text-[1.22rem] text-stone-50 lg:text-xl xl:text-2xl">
                 <p>©2024 desarrollado por Oscar Lozano</p>
             </div>
         </section>
