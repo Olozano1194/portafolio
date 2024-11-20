@@ -19,18 +19,24 @@ export const datos = [
     },
     {
         "id": 4,
+        "imagen": "FullStackTalentTech",
+        "titulacion": "Desarrollo Web Full Stack",
+        "date": '2024-TalentTech'
+    },
+    {
+        "id": 5,
         "imagen": "PracticanteAlura",
         "titulacion": "Practicante en Alura",
         "date": '2022-Alura'
     },
     {
-        "id": 5,
+        "id": 6,
         "imagen": "PracticanteTic",
         "titulacion": "Practicante MisionTic",
         "date": '2022-MinTic'
     },
     {
-        "id": 6,
+        "id": 7,
         "imagen": "TecnologoPlatzi",
         "titulacion": "Técnologo Global",
         "date": '2023-Platzi'
