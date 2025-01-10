@@ -93,7 +93,7 @@ function Contacto() {
 
                 <label htmlFor="mensaje" className="md:w-full resize-none" >
                     <textarea 
-                        className="w-full h-36 p-2 border-l-rose-50 rounded-lg resize-none outline-none md:mt-5 md:ml-3 xl:ml-0" 
+                        className="w-full h-36 p-2 border-l-rose-50 rounded-lg resize-none outline-none md:mt-5" 
                         name="mensaje" 
                         id="mensaje"
                         {...register('mensaje',

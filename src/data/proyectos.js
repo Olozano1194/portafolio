@@ -1,6 +1,16 @@
 export const proyectos = [
     {
         id: 1,
+        'title': 'Proyecto Gimnasio',
+        'subtitle': 'Proyecto Personal',
+        'description': 'Proyecto desarrollado con React, Tailwind y Django Rest Framework',
+        'img': 'GymReactDjango',
+        'tipo': 'Demo',
+        'repo': 'https://github.com/Olozano1194/GimnasioReactDjango',
+        'Demo': 'https://gimnasio-react-django.vercel.app',
+    },
+    {
+        id: 2,
         'title': 'Proyecto Instituciones',
         'subtitle': 'Proyecto MinTic',
         'description': 'Proyecto final del curso FullStack de MinTic, desarrollado con Html5, Tailwind, Axios',
@@ -10,7 +20,7 @@ export const proyectos = [
         'Demo': 'https://instituciones-v1.vercel.app',
     },
     {
-        id: 2,
+        id: 3,
         'title': 'Proyecto Api-Instituciones',
         'subtitle': 'Proyecto MinTic',
         'description': 'Api para el proyecto Instituciones, desarrollado con NodeJs, Express, MongoDB, Cors, Swagger',
@@ -20,7 +30,7 @@ export const proyectos = [
         'Demo': 'https://api-instituciones-3dvhnt7tv-oscars-projects-0f3a365c.vercel.app',
     },
     {
-        id: 3,
+        id: 4,
         'title': "Lista de Tareas",
         'subtitle': "Proyecto Personal",
         'description': "Proyecto desarrollado con Html5, Css3, Mysql y Django",
@@ -31,7 +41,7 @@ export const proyectos = [
                 
     },
     {
-        id: 4,
+        id: 5,
         'title': "Lista de Tareas",
         'subtitle': "Proyecto Tutorial",
         'description': "Proyecto desarrollado con React y tailwind",
@@ -41,7 +51,7 @@ export const proyectos = [
         'Demo': 'https://olozano1194.github.io/task-app/',
     },
     {
-        id: 5,
+        id: 6,
         'title': "Sistema para Gimnasio",
         'subtitle': "Proyecto Personal",
         'description': "Proyecto desarrollado con Html5, Css3, JavaScript y Django",
@@ -51,7 +61,7 @@ export const proyectos = [
         'Demo': 'https://gimnasio-vm42.onrender.com',
     },
     {
-        id: 6,
+        id: 7,
         'title': "Login Django",
         'subtitle': "Proyecto Personal",
         'description': "Proyecto desarrollado con Html5, Css3, JavaScript y Django",
@@ -61,7 +71,7 @@ export const proyectos = [
         //'video': 'LoginDjango',
     },
     {
-        id: 7,
+        id: 8,
         'title': "Hotel Alura",
         'subtitle': "Challenger Oracle-Alura",
         'description': "Proyecto desarrollado con Java, JDBC y Mysql",
@@ -71,7 +81,7 @@ export const proyectos = [
         //'video': 'AluraHotel',
     },
     {
-        id: 8,
+        id: 9,
         'title': "Tienda Virtual",
         'subtitle': "Challenger Oracle-Alura",
         'description': "Proyecto desarrollado con Html5, Css3, JavaScript",
@@ -81,7 +91,7 @@ export const proyectos = [
         'Demo': 'https://olozano1194.github.io/challenger_4_Ecomerce_Alura',
     },
     {
-        id: 9,
+        id: 10,
         'title': "Juego del Ahorcado",
         'subtitle': "Challenger Oracle-Alura",
         'description': "Proyecto desarrollado con Html5, Css3, JavaScript",
@@ -91,7 +101,7 @@ export const proyectos = [
         'Demo': 'https://olozano1194.github.io/Challenger2-Juego-Ahorcado/',
     },
     {
-        id: 10,
+        id: 11,
         'title': "Encriptador de Texto",
         'subtitle': "Challenger Oracle-Alura",
         'description': "Proyecto desarrollado con Html5, Css3, JavaScript",
@@ -101,7 +111,7 @@ export const proyectos = [
         'Demo': 'https://olozano1194.github.io/Challenger1-encriptador/',
     },
     {
-        id: 11,
+        id: 12,
         'title': "Conversor de Monedas",
         'subtitle': "Challenger Oracle-Alura",
         'description': "Proyecto desarrollado con Java",

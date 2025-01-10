@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 
 function Proyectos() {
+    
     return (
         <section className="w-full overflow-hidden flex flex-col justify-center items-center p-5">
             <h2 id="proyectos" className="font-bold text-center text-4xl p-5">Proyectos</h2>
