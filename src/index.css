@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a:hover {
+    color: #ffffffb4;
+    cursor: pointer;
+    
+}
+
+.title {
+    @media (max-width: 400px), (max-width: 1023px) {
+        display: none;
+    }
+    @media (min-width: 1066px) {
+        padding-right: 1rem;
+    }
+
+           
+}
+
+.logo {
+    @media (max-width: 874px) {
+        display: none;        
+
+    }
+ 
+}
+
+.linkNav {
+    @media (min-width: 700px) {
+        font-size: 1rem;
+    }
+    @media (min-width: 800px) {
+        font-size: 1.2rem;
+    }
+    @media (min-width: 900px) {
+        font-size: 1.32rem;
+    }
+        
+}
+
+/*--------------Redes------------------*/
+.redesDiv {
+    @media (min-width: 414px){
+        font-size: 1.06rem;
+    }
+    @media (min-width: 513px) {
+        font-size: 1.12rem;
+    }
+    @media (min-width: 540px) {
+        font-size: 1.13rem;
+    }
+    @media (min-width: 568px) {
+        font-size: 1.18rem;
+    }
+    @media (min-width: 592px) {
+        font-size: 1.19rem;
+    }
+    @media (min-width: 597px) {
+        font-size: 1.2rem;
+    }
+    @media (min-width: 602px) {
+        font-size: 1.21rem;
+    }
+    @media (min-width: 670px) {
+        font-size: 1.3rem;
+    }
+    @media (min-width: 717px) {
+        font-size: 1.35rem;
+    }
+    @media (min-width: 760px) {
+        font-size: 1.387rem;
+    }
+    
+} 
+
+.redes:hover {
+    transform: scale(1.2);
+}
+
+.iconHtml:hover {
+    color: #e34c26;
+    transform: scale(1.2);
+}
+
+.iconJava:hover {
+    color: #5382a1;
+    transform: scale(1.2);
+}
+
+.iconCss:hover {
+    color: #264de4;
+    transform: scale(1.2);
+}
+
+.iconPy:hover {
+    color: #ceb225;
+    transform: scale(1.2);
+
+}
+
+.iconHtml:hover {
+    color: #e34c26;
+    transform: scale(1.2);
+
+}
+
+.iconJS:hover {
+    color: #c9bd6f;
+    transform: scale(1.2);
+
+}
+
+.iconDj:hover {
+    color: #092e20;
+    transform: scale(1.2);
+}
+
+.iconReact:hover {
+    color: #61dafb;
+    transform: scale(1.2);
+}
+
+.iconTw:hover {
+    color: #1da1f2;
+    transform: scale(1.2);
+}
+
+.iconMysql:hover {
+    color: #00758f;
+    transform: scale(1.2);
+}
+
+/*-------Formación -----------------*/
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.imgFormacion {
+    @media (min-width: 600px) {
+        width: 60%;
+    }
+   @media (min-width: 700px) {
+        width: 50%;
+   }  
+}
+
+/*---------------Proyectos------------*/
+a:hover {
+    transform: scale(1.2);
+}
+
+/*-----------------------------Contactos-----------*/
+
