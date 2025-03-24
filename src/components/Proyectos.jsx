@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Proyectos() {
     //Verificamos si estamos en producción o desarrollo
-    const isProduction = import.meta.env.Mode === 'production';
+    //const isProduction = import.meta.env.Mode === 'production';
     
     return (
         <section className="w-full overflow-hidden flex flex-col justify-center items-center p-5">
@@ -31,9 +31,7 @@ function Proyectos() {
                                 proyecto.tipo === 'Demo' ? (
                                     <Link to={proyecto.Demo} className="bg-slate-500 rounded-xl p-2 xl:w-[5rem] xl:text-center">Demo</Link>
                                 ): (
-                                    <Link to={isProduction 
-                                        ? `https://Olozano1194.github.io/portafolio/Videos/${proyecto.id}`
-                                        : `/Videos/${proyecto.id}`} 
+                                    <Link to={`/Videos/${proyecto.id}`} 
                                         target="_blank" 
                                         className="bg-blue-400 rounded-xl p-2 xl:w-[5rem] xl:text-center">
                                             Video
