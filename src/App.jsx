@@ -14,7 +14,7 @@ import './App.css'
 function App() {
   
   return (
-    <BrowserRouter basename='/portafolio'>
+    <BrowserRouter>
       <header className='w-full bg-slate-500 flex justify-between lg:gap-3 p-2 sticky top-0 z-20'>
         <Navbar />
       </header>

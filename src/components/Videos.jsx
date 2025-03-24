@@ -16,7 +16,7 @@ function Videos() {
     const isProduction = import.meta.env.Mode === 'production';
 
     //Usamos una ruta dinámica dependiendo del entorno
-    const videoUrl = isProduction ? `https://Olozano1194.github.io/portafolio/videos/videos-${proyecto.img}.mp4` : `/portafolio/videos/videos-${proyecto.img}.mp4`;
+    const videoUrl = isProduction ? `https://Olozano1194.github.io/portafolio/videos/videos-${proyecto.img}.mp4` : `/videos/videos-${proyecto.img}.mp4`;
     return (
         <section className='w-full overflow-hidden flex flex-col justify-center items-center p-5 border-t-2 border-stone-900'>
             <h1 className='text-4xl font-bold'>{proyecto.title}</h1>
