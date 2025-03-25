@@ -15,7 +15,7 @@ function Proyectos() {
                     <article key={proyecto.id} className="w-full flex items-center justify-center flex-col md:justify-between md:flex-row">
                         <img
                             className="w-80 h-60 md:mr-10 xl:mr-0 xl:w-96 p-5 rounded-3xl cursor-pointer" 
-                            src={`/portafolio/assets/proyecto-${proyecto.img}.png`} 
+                            src={`/assets/proyecto-${proyecto.img}.png`} 
                             alt={`imagen ${proyecto.img}`} />
                         
                         <div className="w-96 xl:w-[400px] text-center text-lg p-2">

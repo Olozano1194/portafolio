@@ -12,7 +12,7 @@ function FormacionAcademica() {
                             <img
                                 className="imgFormacion w-[85%] bg-cover rounded-xl max-h-full object-contain md:w-[90%] lg:w-[90%]"
                                 // className={`w-48 h-30 rounded-xl ${item.imagen === 'PracticanteAlura' ? 'w-40 h-25': ''} ${item.imagen === 'TecnologoPlatzi' ? 'w-40 h-28': ''} `} 
-                                src={`/portafolio/assets/formacion-${item.imagen}.png`}
+                                src={`/assets/formacion-${item.imagen}.png`}
                                 alt={`Logo ${item.imagen}`} 
                             />
                         </div>
