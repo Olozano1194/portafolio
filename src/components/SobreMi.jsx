@@ -10,7 +10,7 @@ function SobreMi() {
             <div className='text-slate-950 text-[1.05rem] md:text-[1.2rem] text-center'>
                 <h2 className='text-4xl font-bold mt-5 mb-4'>Sobre mi</h2>
 
-                <p className='leading-9'>¡Hola¡ Soy <span className='font-bold'>Oscar</span>, un apasionado ingeniero en sistemas colombiano de 29 años 
+                <p className='leading-9'>¡Hola¡ Soy <span className='font-bold'>Oscar</span>, un apasionado ingeniero en sistemas colombiano de 30 años 
                 que, desde el 2022, se ha dedicado al fascinante mundo de la programación, especialmente 
                 en el Front-End.<br></br>
                 Durante el último año, he invertido mi tiempo en diversas plataformas de aprendizaje para 
