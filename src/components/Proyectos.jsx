@@ -7,7 +7,7 @@ function Proyectos() {
     //const isProduction = import.meta.env.Mode === 'production';
     
     return (
-        <section className="w-full overflow-hidden flex flex-col justify-center items-center p-5">
+        <section className="w-full overflow-hidden flex flex-col justify-center items-center p-5 border-b-2 border-stone-900">
             <h2 id="proyectos" className="font-bold text-center text-4xl p-5">Proyectos</h2>
             
             {
