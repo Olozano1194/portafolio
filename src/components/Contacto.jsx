@@ -125,13 +125,10 @@ function Contacto() {
             </form>
 
             <div className="mt-7 md:mb-5 text-[1.22rem] text-stone-50 lg:text-xl xl:text-2xl">
-                <p>©2024 desarrollado por Oscar Lozano</p>
+                <p>©2025 desarrollado por Oscar Lozano</p>
             </div>
         </section>
     );
     
 }
 export default Contacto;
-
-
-//w-full flex flex-wrap justify-between text-center gap-2 mt-5 text-xl cursor-pointer

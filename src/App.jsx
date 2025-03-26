@@ -23,11 +23,11 @@ function App() {
             <main className='bg-gray-200 p-5'>
               <Redes />
               <SobreMi />
+              <FormacionAcademica />
+              <Proyectos />
               <Skills />
               <SoftSkills />
-              <Hobbies />
-              <FormacionAcademica />
-              <Proyectos />            
+              <Hobbies />                          
             </main>
           } 
         />
